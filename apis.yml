@@ -1,8 +1,29 @@
 aid: sidecar
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/sidecar.png
 name: Sidecar
-description: Sidecar is a company surfaced as a portfolio company of union-square-ventures and added to
-  the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  Sidecar (side.cr) was added to the API Evangelist network as a Union Square Ventures
+  portfolio lead. The side.cr domain today hosts a transportation news and information
+  content platform (self-described as "building the largest transportation news source
+  powered by everyday people"), covering ridesharing, driving, delivery, safety, and
+  automotive topics for riders and drivers. It is a reader-facing editorial site, not a
+  developer platform: as of this enrichment pass it publishes no API, developer portal,
+  documentation, SDKs, OpenAPI, or any /.well-known discovery surface. The name echoes the
+  pioneering peer-to-peer Sidecar ridesharing company that Union Square Ventures backed and
+  that wound down in 2015, but the current content site states no operational or corporate
+  ties to that defunct service. This profile is retained as a company/lead record with no
+  active API surface to enrich.
 url: https://raw.githubusercontent.com/api-evangelist/sidecar/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,9 +33,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Transportation
+- Ridesharing
+- Mobility
+- Automotive
+- News
+- Content Platform
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,5 +49,16 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/sidecar-domain-security.yml
 - type: Website
   url: https://side.cr
+- type: Blog
+  url: https://www.side.cr/blog/
+- type: PrivacyPolicy
+  url: https://www.side.cr/policies/privacy-policy/
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
