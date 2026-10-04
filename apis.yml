@@ -42,6 +42,17 @@ x-backed-by:
 - union-square-ventures
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: defunct
+x-status-detail: >-
+  Sidecar Technologies, the San Francisco peer-to-peer ridesharing company Union Square Ventures backed,
+  announced on 2015-12-29 that it would stop its ride and delivery service, and General Motors bought its
+  assets and intellectual property and hired about 20 of its staff on 2016-01-19. The side.cr domain now
+  hosts an unrelated transportation news site with no stated tie to the company.
+x-status-date: '2015-12-29'
+x-status-source:
+- https://en.wikipedia.org/wiki/Sidecar_(company)
+- https://eu.detroitnews.com/story/business/autos/general-motors/2016/01/19/gm-buys-assets-ride-hailing-company-sidecar/78999136/
+- https://sunilpaul.medium.com/why-we-sold-to-gm-83a29058af5a
 specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-21'
@@ -51,8 +62,7 @@ tags:
 - Ridesharing
 - Mobility
 - Automotive
-- News
-- Content Platform
+- Defunct
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -62,14 +72,11 @@ maintainers:
 common:
 - type: DomainSecurity
   url: security/sidecar-domain-security.yml
-- type: Website
-  url: https://side.cr
-- type: Blog
-  url: https://www.side.cr/blog/
-- type: PrivacyPolicy
-  url: https://www.side.cr/policies/privacy-policy/
 x-enrichment:
   date: '2026-07-21'
   status: minimal
   artifacts_added: 1
   pass: local-v1
+x-tags-removed:
+- News
+- Content Platform
