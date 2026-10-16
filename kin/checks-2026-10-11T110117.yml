@@ -2,16 +2,16 @@
 kin_checks:
   slug: sidecar
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
-  run_ts: 2026-10-03T024842
+  scored_at: '2026-10-11'
+  run_ts: 2026-10-11T110117
   note: Actionable checks (missed + partial) in `checks`, plus the ids that did not
     apply in `na`. Everything else in rubric/scoring-0.23.0.yml was earned; counts
     below let you verify that.
   counts:
     total: 153
-    earned: 10
+    earned: 7
     partial: 0
-    missed: 97
+    missed: 100
     na: 46
   checks:
   - id: newsroom_present
@@ -108,6 +108,8 @@ kin_checks:
     status: missed
   - id: support_channel
     status: missed
+  - id: blog_present
+    status: missed
   - id: plans_present
     status: missed
   - id: plans_multiple
@@ -117,6 +119,8 @@ kin_checks:
   - id: sign_up_present
     status: missed
   - id: terms_of_service
+    status: missed
+  - id: privacy_policy
     status: missed
   - id: finops_mapped
     status: missed
@@ -131,6 +135,8 @@ kin_checks:
   - id: reg_vulnerability_disclosure
     status: missed
   - id: reg_terms_of_service
+    status: missed
+  - id: reg_privacy_policy
     status: missed
   - id: reg_compliance_published
     status: missed
